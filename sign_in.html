@@ -18,13 +18,34 @@
 
 
     <h1 class="text-white bg-secondary p-sm-2 p-md-2" align="center">
-        LOGIN
+        SIGN IN
         <img src="login-1203603_640.png" style="height:30vh;">
     </h1>
 
     <div class="container p-3 p-md-5">
         <div class="container p-md-5">
-            <form action="/login" method="POST">
+            <form action="/login1" method="POST">
+                <div class="form-group">
+                    <b><label for="username">Name</label></b>
+                    <input type="text" id="name" placeholder="name" class="form-control" name="name">
+                </div>   
+                
+                <div class="form-group">
+                    <b><label for="username">Year</label></b>
+                    <input type="text" id="year" placeholder="year" class="form-control" name="year">
+                </div> 
+                
+                <div class="form-group">
+                    <b><label for="username">Branch</label></b>
+                    <input type="text" id="name" placeholder="Branch" class="form-control" name="Branch">
+                </div> 
+                
+                <div class="form-group">
+                    <b><label for="username">Roll_no</label></b>
+                    <input type="text" id="name" placeholder="Roll_no" class="form-control" name="Roll_no">
+                </div> 
+                
+                
                 <div class="form-group">
                     <b><label for="username">Username</label></b>
                     <input type="email" id="username" placeholder="username" class="form-control" name="email">
@@ -33,7 +54,7 @@
                     <b><label for="password">Password</label></b>
                     <input type="password" id="password" placeholder="Password" class="form-control" name="password">
                 </div>
-                <input type="submit" value="Login" class="btn btn-warning">
+                <input type="submit" value="Sign in" class="btn btn-warning">
             </form>
         </div>
     </div>
