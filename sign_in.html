@@ -9,52 +9,66 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-
+<style>
+body
+{
+     background-image:url("Screen Shot 2019-04-04 at 11.50.26 AM.jpg"); 
+    background-size:100% ;
+          
+    /* opacity: 0.5;
+  filter: alpha(opacity=50); */
+}
+</style>
 </head>
 <body>
     <!-- <h1 style="font-weight: 17 ">LOG IN </h1>  -->
     <!-- <input style="letter-spacing: 17;font-size:100% "> AMAN SINGH -->
 
-
+<!-- 
     <h1 class="text-white bg-secondary p-sm-2 p-md-2" align="center">
         SIGN IN
         <img src="login-1203603_640.png" style="height:30vh;">
-    </h1>
+    </h1> -->
 
     <div class="container p-3 p-md-5">
+            <h1 style="font-family: cursive ;color:black;font-size: 80px;" align="center">Sign In </h1>
         <div class="container p-md-5">
             <form action="/login1" method="POST">
                 <div class="form-group">
-                    <b><label for="username">Name</label></b>
+                    <b><label for="username"  style="color:black;font-family: cursive;font-size: 30px">Name</label></b>
                     <input type="text" id="name" placeholder="name" class="form-control" name="name">
                 </div>   
                 
                 <div class="form-group">
-                    <b><label for="username">Year</label></b>
+                    <b><label for="username"  style="color:black;font-family: cursive;font-size: 30px">Year</label></b>
                     <input type="text" id="year" placeholder="year" class="form-control" name="year">
                 </div> 
                 
                 <div class="form-group">
-                    <b><label for="username">Branch</label></b>
+                    <b><label for="username"  style="color:black;font-family: cursive;font-size: 30px">Branch</label></b>
                     <input type="text" id="name" placeholder="Branch" class="form-control" name="Branch">
                 </div> 
                 
                 <div class="form-group">
-                    <b><label for="username">Roll_no</label></b>
+                    <b><label for="username" style="color:black;font-family: cursive;font-size: 30px">Section</label></b>
+                    <input type="text" id="name" placeholder="Section" class="form-control" name="Section">
+                </div> 
+                
+                <div class="form-group">
+                    <b><label for="username"  style="color:black;font-family: cursive;font-size: 30px">Roll_no</label></b>
                     <input type="text" id="name" placeholder="Roll_no" class="form-control" name="Roll_no">
                 </div> 
                 
                 
                 <div class="form-group">
-                    <b><label for="username">Username</label></b>
+                    <b><label for="username"  style="color:black;font-family: cursive;font-size: 30px">Username</label></b>
                     <input type="email" id="username" placeholder="username" class="form-control" name="email">
                 </div>
                 <div class="form-group">
-                    <b><label for="password">Password</label></b>
+                    <b><label for="password" style="color:black;font-family: cursive;font-size: 30px">Password</label></b>
                     <input type="password" id="password" placeholder="Password" class="form-control" name="password">
                 </div>
-                <input type="submit" value="Sign in" class="btn btn-warning">
+                <input type="submit" value="Sign In" class="btn btn-warning">
             </form>
         </div>
     </div>
@@ -64,4 +78,3 @@
 
 
 </body>
-</html>
