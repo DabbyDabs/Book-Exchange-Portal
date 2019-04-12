@@ -2,6 +2,7 @@ const route = require('express').Router()
 const Sequelize= require('sequelize')
 const Users= require('../db').Users;
 
+
 route.get('/login',(req,res)=>
 res.render('login') )
 route.get('/signup',(req,res)=> 
@@ -33,5 +34,9 @@ route.post('/signup',(req,res)=>
    }).then((createdUser)=>{
        res.redirect('/login')
    }) )
+
+
+   route.get('/books', (req,res)=>
+   res.render('books'))
 
 exports = module.exports = route
